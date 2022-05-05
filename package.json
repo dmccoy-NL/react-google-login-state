@@ -1,6 +1,6 @@
 {
   "name": "react-google-login-state",
-  "version": "5.1.3",
+  "version": "5.2.2",
   "description": "A Google Login Component for React with state",
   "main": "dist/google-login.js",
   "scripts": {
