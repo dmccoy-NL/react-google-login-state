@@ -1,6 +1,6 @@
 {
   "name": "react-google-login-state",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Google Login Component for React with state",
   "main": "dist/google-login.js",
   "scripts": {
@@ -13,9 +13,6 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "fresh": "rm -rf node_modules dist docs; rm package-lock.json; npm i",
-    "storybook": "start-storybook -p 8080",
-    "build-storybook": "npm run test:generate-output; build-storybook -c .storybook -o docs",
-    "deploy-storybook": "storybook-to-ghpages --out=docs/",
     "release": "release-it --ci --no-git.requireCleanWorkingDir"
   },
   "repository": {
@@ -55,14 +52,6 @@
     "@babel/plugin-transform-runtime": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
-    "@storybook/addon-actions": "^5.2.1",
-    "@storybook/addon-jest": "^5.2.1",
-    "@storybook/addon-knobs": "^5.2.1",
-    "@storybook/addon-links": "^5.2.1",
-    "@storybook/addon-notes": "^5.2.1",
-    "@storybook/addons": "^5.2.1",
-    "@storybook/react": "^5.2.1",
-    "@storybook/storybook-deployer": "^2.8.1",
     "autoprefixer": "^9.7.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^24.7.1",
