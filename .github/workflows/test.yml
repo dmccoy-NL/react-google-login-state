@@ -1,6 +1,12 @@
 name: Test
 
-on: pull_request
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
 
 jobs:
   build:
@@ -19,7 +25,5 @@ jobs:
         run: npm ci
       - name: bundle
         run: npm run bundle --if-present
-      - name: lint
-        run: npm run lint
       - name: test
         run: npm run test
