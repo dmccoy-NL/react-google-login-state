@@ -18,10 +18,6 @@
     "deploy-storybook": "storybook-to-ghpages --out=docs/",
     "release": "release-it --ci --no-git.requireCleanWorkingDir"
   },
-  "pre-commit": [
-    "test",
-    "lint"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmccoy-NL/react-google-login-state.git"
